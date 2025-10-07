@@ -1,3 +1,5 @@
+local_test ansible_connection=local
+
 [vios_group]
 r1 ansible_host=192.168.117.11
 r3 ansible_host=192.168.117.13
