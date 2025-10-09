@@ -1,6 +1,7 @@
 ---
 - hosts: routers
   #gather_facts: false
+  vars_files: /home/naima/Ansible_Practice_2/inventory/secure_data.yml
   tasks: 
     - name: Print ansible config location
       ansible.builtin.debug:
